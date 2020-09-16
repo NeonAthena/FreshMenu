@@ -1,7 +1,15 @@
 <template>
   <div>
     <v-content>
-      It Worked!
+      <Grids/>
+      <br><br>
+      <Grids2/>
+      <br>
+      <br>
+      <Customaction/>
+      <br>
+      <br>
+      <Loadingcard/>
     </v-content>
   </div>
 </template>

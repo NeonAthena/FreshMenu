@@ -3,21 +3,27 @@
   <v-app id="inspire">
     
     <!--Header -->
-    <v-app-bar color="red" dark fixed app>
-      <v-toolbar-title>Application</v-toolbar-title>
-       <!-- Component Example -->
-      <VuetifyLogo/>
-    </v-app-bar>
+    <Densetoolbar/>
+    <Breadcrumbs/>
+      <!-- <v-app-bar color="red" dark fixed app>
+       <v-toolbar-title>Application</v-toolbar-title>
+      
+       <VuetifyLogo/> 
+       
+    </v-app-bar> -->
 
     <!-- Body -->
+   
     <v-content light>
       <nuxt /> 
     </v-content>
-    
-    <!-- Footer -->
+  
+    <!-- Footer 
+    <iconsfooter/>
+  
     <v-footer color="indigo" app>
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
+    </v-footer>-->
 
   </v-app>
 </template>
@@ -33,5 +39,6 @@ export default {}
 
    #inspire {
     background-color: white;
+    color: black;
   }
 </style>
