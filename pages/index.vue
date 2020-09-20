@@ -1,15 +1,9 @@
 <template>
   <div>
     <v-content>
-      <Grids/>
-      <br><br>
-      <Grids2/>
-      <br>
-      <br>
-      <Customaction/>
-      <br>
-      <br>
-      <Loadingcard/>
+    <v-img src="Fit.jpeg" max-width="200" max height="200">
+     <h1>left</h1>
+     </v-img>
     </v-content>
   </div>
 </template>

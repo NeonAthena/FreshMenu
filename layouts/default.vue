@@ -1,7 +1,7 @@
 <template>
   <!--Your App Starts Here -->
   <v-app id="inspire">
-    
+  
     <!--Header -->
     <Densetoolbar/>
     <Breadcrumbs/>
@@ -13,17 +13,19 @@
     </v-app-bar> -->
 
     <!-- Body -->
-   
+    
     <v-content light>
       <nuxt /> 
     </v-content>
+
+   
   
-    <!-- Footer 
+    Footer 
     <iconsfooter/>
   
     <v-footer color="indigo" app>
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>-->
+    </v-footer>
 
   </v-app>
 </template>

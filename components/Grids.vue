@@ -74,9 +74,9 @@
   export default {
     data: () => ({
       cards: [
-        { title: 'Pre-fab homes', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 12 },
-        { title: 'Favorite road trips', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 6 },
-        { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 6 },
+        { title: 'Pre-fab homes', src: 'Indian.jpg', flex: 12 },
+        { title: 'Favorite road trips', src: 'Fit.jpeg', flex: 6 },
+        { title: 'Best airlines', src: 'Indian.jpg', flex: 6 },
         { title: 'Trial', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 12 },
         { title: 'Flex 8', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 3 },
         { title: 'Flex 4', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 6 },
