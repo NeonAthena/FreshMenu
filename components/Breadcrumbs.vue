@@ -2,7 +2,7 @@
   <div>
     <v-breadcrumbs :items="items">
       <template v-slot:divider>
-        <v-icon>mdi-forward</v-icon>
+        <v-icon medium dark color="grey">mdi-chevron-right</v-icon>
       </template>
     </v-breadcrumbs>
 
@@ -20,15 +20,11 @@
           href: 'breadcrumbs_dashboard',
         },
         {
-          text: 'PREVIEW',
+          text: 'CATEGORIES',
           disabled: false,
-          href: 'PREVIEW',
+          href: 'CATEGORIES',
         },
-        {
-          text: 'Link 2',
-          disabled: true,
-          href: 'breadcrumbs_link_2',
-        },
+        
       ],
     }),
   }
