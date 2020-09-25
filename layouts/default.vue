@@ -9,7 +9,7 @@
       
     <!-- Body 
     The overlay has been added-->
-    
+    <rowscols/>
     
     
     <!--Footer--> 
