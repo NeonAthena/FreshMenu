@@ -1,8 +1,8 @@
 <template>
   <div>
-    <v-breadcrumbs :items="items">
+    <v-breadcrumbs :items="items" class="my-16">
       <template v-slot:divider>
-        <v-icon>mdi-forward</v-icon>
+        <v-icon color="grey">mdi-greater-than</v-icon>
       </template>
     </v-breadcrumbs>
 
@@ -15,20 +15,17 @@
     data: () => ({
       items: [
         {
-          text: 'HOME',
+          text: 'Home',
+          
           disabled: false,
           href: 'breadcrumbs_dashboard',
         },
         {
-          text: 'PREVIEW',
+          text: 'Categories',
           disabled: false,
-          href: 'PREVIEW',
+          href: 'breadcrumbs_link_1',
         },
-        {
-          text: 'Link 2',
-          disabled: true,
-          href: 'breadcrumbs_link_2',
-        },
+        
       ],
     }),
   }
