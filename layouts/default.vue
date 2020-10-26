@@ -3,7 +3,7 @@
   <v-app id="inspire">
 
     <!--Header 
-   While making ===>
+   While making-->
    
     
    <Navbar/> 
@@ -20,7 +20,7 @@
       
     
        
-      <carousels/>
+     
      
    
   
