@@ -3,7 +3,7 @@
   <v-app id="inspire">
 
     <!--Header 
-    Included v-row to add space but had overlaps so included mt in breadcrumbs component -->
+   While making ===>
    
     
    <Navbar/> 
@@ -34,8 +34,7 @@
     
     
     <!-- Footer 
-    Faced some glitch in the phone screen inspect, where images would be placed behind the footer intially
-    but works fine when refreshed, works fine in cell phone screen-->
+  Tried changing the spacing when refreshed-->
     <v-row>
    <v-footer 
       absolute
@@ -110,7 +109,7 @@
             
           
               <v-text small class="ml-4">Privacy</v-text>
-           
+
         </v-row>
         </v-text>
 
