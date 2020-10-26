@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-breadcrumbs :items="items" class="my-16">
+    <v-breadcrumbs :items="items" class="my-10 mx-16">
       <template v-slot:divider>
         <v-icon color="grey">mdi-greater-than</v-icon>
       </template>
@@ -16,7 +16,6 @@
       items: [
         {
           text: 'Home',
-          
           disabled: false,
           href: 'breadcrumbs_dashboard',
         },

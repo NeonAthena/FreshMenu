@@ -36,15 +36,15 @@
           <div
             v-if="hover"
             
-            class="d-flex transition-fast-in-fast-out yellow lighten-2 v-card--reveal display-4 black--text"
-            style="height: 100%; opacity: 60%; text-opacity: 100%;"
+            class="d-flex transition-fast-in-fast-out black lighten-2 v-card--reveal display-4 white--text"
+            style="height: 100%; opacity: 70%; text-opacity: 100%;"
             >
             <div class="align-self-center">
             <v-flex class="mx-5"> 
            <v-card-title  v-text="card.title" class="text-h4 font-weight-medium font-family-Calibri"></v-card-title>
             <div class="align-self-center">
             <v-rating
-  color="black"
+  color="#C0C0C0"
   half-increments
   length="5"
   size="30"

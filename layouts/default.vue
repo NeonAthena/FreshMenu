@@ -6,7 +6,7 @@
     Included v-row to add space but had overlaps so included mt in breadcrumbs component -->
    
     
-   <Toolbar/> 
+   <Navbar/> 
       
       <v-row>
    <Breadcrumbs/>
