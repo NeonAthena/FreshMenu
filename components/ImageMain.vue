@@ -1,6 +1,8 @@
 <template>
   
   <v-container fluid>
+  <!--Intially used cards for images then used for loop>
+  <!-- used justify for contibuting to make the image responsive cause when the margins were defined, the images had a lot of space between them.-->
     <v-row
     justify="center"
       class="mx-auto my-1"
@@ -68,6 +70,7 @@
   </v-hover>
             
           </v-img>
+          
 
             
          </v-card>
@@ -77,7 +80,7 @@
   
 </template>
 
-
+<v-divider inset color="black" width="2000"></v-divider>
 
 <script>
   export default {

@@ -1,13 +1,11 @@
 <template>
-  <!--Your App Starts Here -->
+ 
   <v-app id="inspire">
 
-    <!--Header 
-   While making-->
-   
-    
+    <!--Header -->
+  
    <Navbar/> 
-      
+      <Button/>
       <v-row>
    <Breadcrumbs/>
       </v-row>
@@ -17,6 +15,7 @@
     <!-- Tried using the loop for the images in Image main component-->
       <!-- Body -->
       <ImageMain/>
+      <Tabs/>
       
     
        
@@ -24,7 +23,7 @@
      
    
   
- 
+      
     </v-container>
    
     <v-content light>
@@ -34,7 +33,8 @@
     
     
     <!-- Footer 
-  Tried changing the spacing when refreshed-->
+  Tried changing the spacing when refreshed
+  Also tried various color schemes according to the website-->
     <v-row>
    <v-footer 
       absolute
