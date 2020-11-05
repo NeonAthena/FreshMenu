@@ -2,7 +2,8 @@
   
   <v-container fluid>
   <!--Intially used cards for images then used for loop>
-  <!-- used justify for contibuting to make the image responsive cause when the margins were defined, the images had a lot of space between them.-->
+  <!-- used justify for contibuting to make the image responsive cause when the margins were defined, the images had a lot of space between them.
+  For the overlay added an average rating so that the users could decide if they want to go ahead with their selection. -->
     <v-row
     justify="center"
       class="mx-auto my-1"
@@ -53,7 +54,7 @@
   value="4"
 ></v-rating>
    </div>        
-
+    
            </v-flex>
            </div>
 
